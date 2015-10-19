@@ -24,7 +24,7 @@ p {
 }
 
 .centredDiv a:after {
-	content: 'linklink';
+	content: '';
 	position: absolute;
 	background: red;
 	height: 2px;
