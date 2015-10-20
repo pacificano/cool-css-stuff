@@ -22,7 +22,7 @@
 	position: absolute;
 	top: 0px;
 	left: 0;
-	transition: all .35s ease;
+	transition: transform .35s ease;
 	cursor: pointer;
 }
 .menu-button span:nth-of-type(2) {
