@@ -1,0 +1,38 @@
+// Change the grid settings... has to go above the bourbon import
+$visual-grid: true !default
+$visual-grid-color: lightblue !default
+$visual-grid-index: front !default
+$visual-grid-opacity: 0.2 !default
+$column: 90px
+$gutter: 30px
+$grid-columns: 12
+$max-width: 960px
+
+// Import bourbon
+@import "bourbon"
+@import "neat-helpers"
+
+// Define your breakpoints... has to go after neat-helpers but before neat
+$tablet: new-breakpoint(max-width 768px 8)
+$mobile: new-breakpoint(max-width 480px 4)
+
+// Import Neat
+@import "neat"
+
+
+
+// 1 - addons
+@import '1-addons/normalize.css'
+@import '1-addons/reset.css'
+
+// 2 - elements
+@import '2-elements/fadeIn'
+
+// 3 - sections
+
+// 4 - pages
+
+
+
+body
+	background: pink
