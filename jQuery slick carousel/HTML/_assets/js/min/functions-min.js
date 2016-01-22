@@ -1,0 +1,1 @@
+$(function(){$(".your-class").slick({autoplay:!0,autoplaySpeed:2e3,infinite:!0,fade:!0})});
