@@ -1,0 +1,1 @@
+function articleTada(){var a=Math.floor(Math.random()*$("img").length);$("img").eq(a).addClass("is-anim").siblings().removeClass("is-anim")}$(function(){setInterval(function(){articleTada()},500)});
