@@ -1,6 +1,7 @@
 .container {
   width: 900px;
-  height: 600px; }
+  height: 600px;
+  background: pink; }
   .container img {
     height: 200px;
     width: 300px; }
